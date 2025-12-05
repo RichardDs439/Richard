@@ -1,16 +1,234 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Richard César | Front-end Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-<h1>Richard</h1>
+<!-- ======================================= -->
+<!-- HERO SECTION -->
+<!-- ======================================= -->
+<header class="hero-section">
+    <div class="hero-background-grid"></div>
 
+    <div class="hero-content">
+        <img src="Foto/WhatsApp Image 2025-11-27 at 09.07.34.jpeg" 
+        alt="Minha foto de perfil" 
+        class="profile-img animate-fade-in">
 
+        <h1 class="animate-slide-up">
+            Richard César <span class="highlight">// FRONT-END</span>
+        </h1>
 
-    
+        <p class="animate-slide-up" style="max-width: 690px; margin: 20px auto; line-height: 1.7;">
+            Desenvolvedor Front-end focado na criação de interfaces modernas,
+            funcionais e visualmente impactantes. Minha missão é transformar
+            conceitos em experiências digitais marcantes, utilizando código limpo,
+            design tecnológico e atenção aos mínimos detalhes.
+            <br><br>
+            Acredito que cada linha de código é uma oportunidade de criar algo
+            único. Trabalhar com tecnologia é, para mim, como montar sistemas vivos:
+            lógicos, dinâmicos e capazes de proporcionar experiências memoráveis.
+            <br><br>
+            Seja para construir uma interface futurista, aprimorar a usabilidade de
+            um sistema ou desenvolver algo completamente novo, estou sempre pronto
+            para elevar ideias ao próximo nível.
+        </p>
+    </div>
+
+    <a href="#sobre-mim" class="scroll-down-indicator animate-pulse">
+        <p>EXPLORAR</p>
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</header>
+
+<!-- ======================================= -->
+<!-- MAIN CONTENT -->
+<!-- ======================================= -->
+<main class="main-content">
+
+    <!-- SOBRE MIM -->
+    <section id="sobre-mim" class="container glass-effect fade-in-section">
+        <h2 class="section-title">01 / Sobre Mim</h2>
+        <p class="section-description">
+            Olá! Eu sou Richard César, desenvolvedor Front-end apaixonado por
+            tecnologia e interfaces intuitivas. Busco sempre unir estética,
+            funcionalidade e performance para entregar resultados que se destacam.
+        </p>
+        <p class="section-description">
+            Acredito que cada projeto é uma oportunidade para evoluir e explorar
+            novas possibilidades no universo digital. Meu compromisso é criar
+            experiências que encantem e entreguem valor real.
+        </p>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="container glass-effect fade-in-section">
+        <h2 class="section-title">02 / Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item">HTML5 <i class="fab fa-html5"></i></div>
+            <div class="skill-item">CSS <i class="fab fa-css-alt"></i></div>
+            <div class="skill-item">PHP <i class="fab fa-php"></i></div>
+            <div class="skill-item">Design Responsivo <i class="fas fa-mobile-alt"></i></div>
+            <div class="skill-item">Git & GitHub <i class="fab fa-github"></i></div>
+            <div class="skill-item">VS Code <i class="fas fa-code"></i></div>
+        </div>
+    </section>
+
+    <!-- PROJETO EM DESTAQUE -->
+    <section id="trabalhos" class="container fade-in-section">
+        <h2 class="section-title">03 / Projeto em Destaque</h2>
+        
+        <div class="trabalho-card glass-effect animate-card">
+            
+            <div class="project-image-wrapper project-img-large">
+                <img src="Foto/Messi 2015.jpg" alt="Imagem do Projeto 1" class="project-img">
+                <div class="project-overlay">
+                    <a href="#" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="project-info">
+                <h3>Site Conceitual: Biografia Lionel Messi</h3>
+                <p>
+                    Lionel Andrés Messi, nascido em 1987 na Argentina, é amplamente considerado 
+                    o melhor jogador de futebol da história. Ele iniciou sua carreira no FC Barcelona,
+                    onde se tornou uma lenda ao longo de 17 anos, conquistando 10 títulos
+                    da La Liga e 4 Ligas dos Campeões. Após deixar o Barça, atuou no PSG e hoje joga
+                    pelo Inter Miami. Seu maior feito foi liderar a Seleção Argentina ao título da
+                    Copa do Mundo FIFA 2022.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================= -->
+    <!-- NOVA SEÇÃO – PROJETOS DA ESCOLA -->
+    <!-- ======================================= -->
+    <section id="projetos-escola" class="container fade-in-section">
+        <h2 class="section-title">04 / Projetos da Escola</h2>
+        <p class="section-description" style="margin-bottom: 40px;">
+            Projetos desenvolvidos durante minha formação, aplicando conceitos fundamentais
+            de HTML, CSS, JavaScript e organização de interfaces.
+        </p>
+
+        <div class="school-projects-grid">
+
+            <!-- PROJETO 1 -->
+            <div class="trabalho-card glass-effect animate-card">
+                <div class="project-image-wrapper">
+                    <img src="Foto/projeto-escola1.jpg" alt="Projeto escolar 1" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-info">
+                    <h3>Projeto Escolar 01</h3>
+                    <p>
+                        Breve descrição do projeto. Personalize este texto com o conteúdo real.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PROJETO 2 -->
+            <div class="trabalho-card glass-effect animate-card">
+                <div class="project-image-wrapper">
+                    <img src="Foto/projeto-escola2.jpg" alt="Projeto escolar 2" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-info">
+                    <h3>Projeto Escolar 02</h3>
+                    <p>
+                        Outro projeto acadêmico com foco em estruturação e lógica.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PROJETO 3 -->
+            <div class="trabalho-card glass-effect animate-card">
+                <div class="project-image-wrapper">
+                    <img src="Foto/projeto-escola3.jpg" alt="Projeto escolar 3" class="project-img">
+                    <div class="project-overlay">
+                        <a href="#" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-info">
+                    <h3>Projeto Escolar 03</h3>
+                    <p>
+                        Descrição do projeto que você desenvolveu no curso.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="container glass-effect fade-in-section">
+        <h2 class="section-title">05 / Contato</h2>
+        <p class="section-description">
+            Tem um projeto ou ideia em mente? Estou disponível para colaborações
+            e novos desafios. Vamos conversar e criar algo incrível.
+        </p>
+        
+        <div class="contact-links">
+            <a href="https://www.instagram.com/richard.0.3.1" target="_blank" class="social-link instagram-link animate-pop-in">
+                <i class="fab fa-instagram"></i> Meu Instagram
+            </a>
+            <a href="mailto:seuemail@exemplo.com" class="social-link email-link animate-pop-in">
+                <i class="fas fa-envelope"></i> Enviar Email
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 RICHARD CÉSAR. Desenvolvido com dedicação e código. 
+        <a href="#top" class="back-to-top">Voltar ao Topo <i class="fas fa-arrow-up"></i></a>
+    </p>
+</footer>
+
+<script>
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+            } else {
+                entry.target.classList.remove('is-visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in-section, .animate-card, .animate-pop-in').forEach(section => {
+        observer.observe(section);
+    });
+</script>
+
 </body>
 </html>
